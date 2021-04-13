@@ -9,7 +9,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 @font-face {
-  font-family: aliensAndCows;
+  font-family: "Aliens and Cows";
   src: url("assets/aliens and cows_trial.ttf");
 }
 
@@ -52,6 +52,7 @@ body {
 .nav-bar ul li a {
   text-decoration: none;
   color: white;
+	font-family: "Aliens and Cows";
 }
 
 .nav-bar ul li a:hover {
@@ -114,6 +115,7 @@ p {
 .episode-banner h1 {
     font-size: 3em;
     color: #ffffff;
+		font-family: "Aliens and Cows";
 }
 
 .episode-banner h2 {
@@ -183,10 +185,12 @@ p {
 
   .episode-banner h1 {
       font-size: 4em;
+			font-family: "Aliens and Cows";
   }
 
   .episode-banner h2 {
       font-size: 2.5em;
+			font-family: "Aliens and Cows";
   }
 
   #ep-guide {
@@ -219,6 +223,9 @@ p {
   color: #d4d4d4;
   background-color: #0d0102;
   padding-top: 10px;
+	margin-top: 0px;
+margin-bottom: 0px;
+font-family: "Aliens and Cows";
 }
 
 .character-title {
@@ -355,7 +362,7 @@ p {
 }
 
 .model {
-  height: 350px;
+  height: 270px;
   max-width: 100%;
   max-height: 100%;
 }
